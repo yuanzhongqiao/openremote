@@ -1,80 +1,82 @@
-# OpenRemote v3
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开放远程 v3</font></font></h1><a id="user-content-openremote-v3" class="anchor-element" aria-label="永久链接：OpenRemote v3" href="#openremote-v3"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/openremote/openremote/workflows/CI/CD/badge.svg"><img src="https://github.com/openremote/openremote/workflows/CI/CD/badge.svg" alt="持续集成/持续交付" style="max-width: 100%;"></a>
+<a href="https://github.com/Naereen/badges/"><img src="https://camo.githubusercontent.com/633bc5566b36e2ea7ca8a015c5281783cf71a1cf4b4be037c78aa8d58f8f5ca3/68747470733a2f2f62616467656e2e6e65742f62616467652f4f70656e253230536f757263652532302533462f5965732532312f626c75653f69636f6e3d676974687562" alt="开源？ 是的！" data-canonical-src="https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github" style="max-width: 100%;"></a></p>
 
-![CI/CD](https://github.com/openremote/openremote/workflows/CI/CD/badge.svg)
-[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
-<!-- ![tests](https://github.com/openremote/openremote/workflows/tests/badge.svg) -->
-
-[Source](https://github.com/openremote/openremote) **·** [Documentation](https://github.com/openremote/openremote/wiki) **·** [Forum](https://forum.openremote.io) **·** [Issues](https://github.com/openremote/openremote/issues) **·** [Docker Images](https://hub.docker.com/u/openremote/) **·** [OpenRemote Inc.](https://openremote.io)
-
-Welcome to OpenRemote; an intuitive user-friendly 100% open source IoT platform. You can build a complete IoT device management solution including: device management and auto provisioning, customisation of asset types, automation via when-then, flow, javascript and groovy rules, data analytics, connectivity via several protocol agents and manager APIs (e.g. MQTT broker, HTTP/REST, WS), Multi-tenancy (realms), Users and roles management, Edge gateway, Front-end UI web components and consoles, and an Insights dashboard builder. 
-
-As the code base is 100% open source, applications are limitless. Here's an architecture overview:
-
-<img src="https://openremote.io/wp-content/uploads/2023/09/OpenRemote_Architecture-scaled.jpg" width="900">
-
-## Quickstart
-
-You can quickly try the online demo with restricted access, login credentials are `smartcity:smartcity`:
-
-[Online demo](https://demo.openremote.app/manager/?realm=smartcity)
-
-The quickest way to get your own environment with full access is to make use of our docker images (both `amd64` and `arm64` are supported). 
-1. Make sure you have [Docker Desktop](https://www.docker.com/products/docker-desktop) installed (v18+). 
-2. Download the docker compose file:
-[OpenRemote Stack](https://raw.githubusercontent.com/openremote/openremote/master/docker-compose.yml) (Right click 'Save link as...')
-3. In a terminal `cd` to where you just saved the compose file and then run:
-```
-    docker-compose pull
+<p dir="auto"><a href="https://github.com/openremote/openremote"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来源</font></font></a> <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">·</font></font></strong> <a href="https://github.com/openremote/openremote/wiki"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a> <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">·</font></font></strong> <a href="https://forum.openremote.io" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论坛</font></font></a> <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">·</font></font></strong> <a href="https://github.com/openremote/openremote/issues"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题</font></font></a> <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">· </font></font></strong> <a href="https://hub.docker.com/u/openremote/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Docker 镜像</font></font></a> <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">· </font></font></strong> <a href="https://openremote.io" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenRemote Inc.</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">欢迎来到 OpenRemote；</font><font style="vertical-align: inherit;">直观、用户友好的 100% 开源物联网平台。</font><font style="vertical-align: inherit;">您可以构建完整的 IoT 设备管理解决方案，包括：设备管理和自动配置、资产类型自定义、通过何时、流程、JavaScript 和 Groovy 规则实现自动化、数据分析、通过多个协议代理和管理器 API（例如 MQTT 代理）进行连接、HTTP/REST、WS）、多租户（领域）、用户和角色管理、Edge 网关、前端 UI Web 组件和控制台以及 Insights 仪表板生成器。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由于代码库 100% 开源，因此应用程序是无限的。</font><font style="vertical-align: inherit;">以下是架构概述：</font></font></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/47ea72606f224c9461ecf859cc0bcc05107bacd1747e11b45afb9c4d9b048361/68747470733a2f2f6f70656e72656d6f74652e696f2f77702d636f6e74656e742f75706c6f6164732f323032332f30392f4f70656e52656d6f74655f4172636869746563747572652d7363616c65642e6a7067"><img src="https://camo.githubusercontent.com/47ea72606f224c9461ecf859cc0bcc05107bacd1747e11b45afb9c4d9b048361/68747470733a2f2f6f70656e72656d6f74652e696f2f77702d636f6e74656e742f75706c6f6164732f323032332f30392f4f70656e52656d6f74655f4172636869746563747572652d7363616c65642e6a7067" width="900" data-canonical-src="https://openremote.io/wp-content/uploads/2023/09/OpenRemote_Architecture-scaled.jpg" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快速开始</font></font></h2><a id="user-content-quickstart" class="anchor-element" aria-label="永久链接：快速入门" href="#quickstart"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以快速尝试具有受限访问权限的在线演示，登录凭据是</font></font><code>smartcity:smartcity</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
+<p dir="auto"><a href="https://demo.openremote.app/manager/?realm=smartcity" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在线演示</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获得具有完全访问权限的环境的最快方法是使用我们的 docker 镜像（ 和</font></font><code>amd64</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">均受</font></font><code>arm64</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持）。</font></font></p>
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保您已安装</font></font><a href="https://www.docker.com/products/docker-desktop" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Docker Desktop</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (v18+)。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载 docker compose 文件：
+ </font></font><a href="https://raw.githubusercontent.com/openremote/openremote/master/docker-compose.yml" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenRemote Stack</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（右键单击“将链接另存为...”）</font></font></li>
+<li><font style="vertical-align: inherit;"></font><code>cd</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在刚刚保存撰写文件的</font><font style="vertical-align: inherit;">终端中，然后运行：</font></font></li>
+</ol>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>    docker-compose pull
     docker-compose -p openremote up
-```
-If all goes well then you should now be able to access the OpenRemote Manager UI at [https://localhost](https://localhost). You will need to accept the self-signed 
-certificate, see [here](https://www.technipages.com/google-chrome-bypass-your-connection-is-not-private-message) for details how to do this in Chrome (similar for other browsers).
-
-
-### Login credentials
-Username: admin  
-Password: secret
-
-### Changing host and/or port
-The URL you use to access the system is important, the default is configured as `https://localhost` if you are using a VM or want to run on a different port then you will need to set the `OR_HOSTNAME` and `OR_SSL_PORT` environment variables, so if for example you will be accessing using `https://192.168.1.1:8443` then use the following startup command:
-
-BASH: 
-```
-OR_HOSTNAME=192.168.1.1 OR_SSL_PORT=8443 docker-compose -p openremote up -d
-```
-or
-
-CMD:
-```
-cmd /C "set OR_HOSTNAME=192.168.1.1 && set OR_SSL_PORT=8443 && docker-compose -p openremote up -d"
-```
-
-## What next
-Try creating assets, agents, rules, users, realms, etc. using the Manager UI, please refer to the [wiki](https://github.com/openremote/openremote/wiki) for more information, some things to try:
-
-- [Manager UI Guide](https://github.com/openremote/openremote/wiki/User-Guide:-Manager-UI) - Learn more about the User Interface
-- [Creating an HTTP Agent tutorial](https://github.com/openremote/openremote/wiki/Tutorial%3A-Open-Weather-API-using-HTTP-Agent) - Connect to an online weather service
-- [Custom Deployment](https://github.com/openremote/openremote/wiki/User-Guide%3A-Custom-deployment) - Style the Manager to your brand
-- [Setting up an IDE](https://github.com/openremote/openremote/wiki/Developer-Guide%3A-Setting-up-an-IDE) - Set up your development environment
-- [Working on the UI](https://github.com/openremote/openremote/wiki/Developer-Guide%3A-UI-apps-and-components) - Create a web application compatible with OpenRemote
-- [Creating a custom project](https://github.com/openremote/openremote/wiki/Developer-Guide%3A-Creating-a-custom-project) - Create a project with custom protocols, asset types and setup code
-
-## Where's the data stored?
-Persistent data is stored in a PostgreSQL DB which is stored in the `openremote_postgresql-data` docker volume which is durably stored independently of the running containers (see all with `docker volume ls`).
-Note that historical attribute data is purged daily based on value of `OR_DATA_POINTS_MAX_AGE_DAYS`; this value can also be overridden for individual attributes by using the `dataPointsMaxAgeDays` configuration item.
-See the [Developer Guide](https://github.com/openremote/openremote/wiki/Developer-Guide%3A-Useful-commands-and-queries#backuprestore-openremote-db) for details on making backups of the database.
-
-
-## Contributing to OpenRemote
-
-For information and how to set up a development environment, see the [Developer Guide](https://github.com/openremote/openremote/wiki).
-
-We work with Java, Groovy, TypeScript, Gradle, Docker, and a wide range of APIs and protocol implementations.
-
-We follow the [Github Flow](https://docs.github.com/en/get-started/quickstart/github-flow) workflow with tags and releases for published versions of our components; when working on the codebase create descriptive branch names (e.g. `feature/cool_feature_x`, `hotfix/flux_capacitor`, `issue/123`, etc.).
-
-When your changes are complete then create a Pull Request ensuring that your branch is up-to-date with the source branch and that code changes are covered by tests and that the full test suite passes.
-
-## Discuss OpenRemote
-
-Join us on the [community forum](https://forum.openremote.io/).
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="    docker-compose pull
+    docker-compose -p openremote up" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果一切顺利，那么您现在应该能够通过</font></font><a href="https://localhost" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://localhost</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">访问 OpenRemote Manager UI 。</font><font style="vertical-align: inherit;">您需要接受自签名证书，请参阅</font></font><a href="https://www.technipages.com/google-chrome-bypass-your-connection-is-not-private-message" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解如何在 Chrome 中执行此操作的详细信息（与其他浏览器类似）。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">登录信息</font></font></h3><a id="user-content-login-credentials" class="anchor-element" aria-label="永久链接：登录凭据" href="#login-credentials"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户名：admin</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+密码：secret</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更改主机和/或端口</font></font></h3><a id="user-content-changing-host-andor-port" class="anchor-element" aria-label="永久链接：更改主机和/或端口" href="#changing-host-andor-port"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于访问系统的 URL 很重要，默认配置就像</font></font><code>https://localhost</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您正在使用虚拟机或想要在不同的端口上运行一样，那么您将需要设置</font></font><code>OR_HOSTNAME</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>OR_SSL_PORT</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">环境变量，因此，例如，如果您将使用</font></font><code>https://192.168.1.1:8443</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后使用以下启动命令：</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重击：</font></font></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>OR_HOSTNAME=192.168.1.1 OR_SSL_PORT=8443 docker-compose -p openremote up -d
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="OR_HOSTNAME=192.168.1.1 OR_SSL_PORT=8443 docker-compose -p openremote up -d" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令：</font></font></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>cmd /C "set OR_HOSTNAME=192.168.1.1 &amp;&amp; set OR_SSL_PORT=8443 &amp;&amp; docker-compose -p openremote up -d"
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="cmd /C &quot;set OR_HOSTNAME=192.168.1.1 &amp;&amp; set OR_SSL_PORT=8443 &amp;&amp; docker-compose -p openremote up -d&quot;" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">接下来是什么</font></font></h2><a id="user-content-what-next" class="anchor-element" aria-label="永久链接： 接下来做什么" href="#what-next"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试使用 Manager UI 创建资产、代理、规则、用户、领域等，请参阅 wiki</font></font><a href="https://github.com/openremote/openremote/wiki"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多信息，以及一些可以尝试的事情：</font></font></p>
+<ul dir="auto">
+<li><a href="https://github.com/openremote/openremote/wiki/User-Guide:-Manager-UI"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Manager UI 指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 了解有关用户界面的更多信息</font></font></li>
+<li><a href="https://github.com/openremote/openremote/wiki/Tutorial%3A-Open-Weather-API-using-HTTP-Agent"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建 HTTP 代理教程</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 连接到在线天气服务</font></font></li>
+<li><a href="https://github.com/openremote/openremote/wiki/User-Guide%3A-Custom-deployment"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自定义部署</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 根据您的品牌设计 Manager</font></font></li>
+<li><a href="https://github.com/openremote/openremote/wiki/Developer-Guide%3A-Setting-up-an-IDE"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置 IDE</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 设置您的开发环境</font></font></li>
+<li><a href="https://github.com/openremote/openremote/wiki/Developer-Guide%3A-UI-apps-and-components"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">处理 UI</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 创建与 OpenRemote 兼容的 Web 应用程序</font></font></li>
+<li><a href="https://github.com/openremote/openremote/wiki/Developer-Guide%3A-Creating-a-custom-project"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建自定义项目</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 使用自定义协议、资产类型和设置代码创建项目</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据存储在哪里？</font></font></h2><a id="user-content-wheres-the-data-stored" class="anchor-element" aria-label="永久链接：数据存储在哪里？" href="#wheres-the-data-stored"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">持久数据存储在 PostgreSQL 数据库中，该数据库存储在</font></font><code>openremote_postgresql-data</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">docker 卷中，该卷独立于正在运行的容器进行持久存储（请参阅所有内容</font></font><code>docker volume ls</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font><font style="vertical-align: inherit;">请注意，历史属性数据每天根据 的值清除</font></font><code>OR_DATA_POINTS_MAX_AGE_DAYS</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">；</font><font style="vertical-align: inherit;">还可以使用</font></font><code>dataPointsMaxAgeDays</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置项覆盖各个属性的该值。</font><font style="vertical-align: inherit;">有关备份数据库的详细信息，</font><font style="vertical-align: inherit;">请参阅</font></font><a href="https://github.com/openremote/openremote/wiki/Developer-Guide%3A-Useful-commands-and-queries#backuprestore-openremote-db"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发人员指南。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为 OpenRemote 做出贡献</font></font></h2><a id="user-content-contributing-to-openremote" class="anchor-element" aria-label="永久链接：为 OpenRemote 做出贡献" href="#contributing-to-openremote"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关如何设置开发环境的信息，请参阅</font></font><a href="https://github.com/openremote/openremote/wiki"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发人员指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们使用 Java、Groovy、TypeScript、Gradle、Docker 以及各种 API 和协议实现。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们遵循</font></font><a href="https://docs.github.com/en/get-started/quickstart/github-flow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Github Flow</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作流程，为组件的已发布版本添加标签和版本；</font><font style="vertical-align: inherit;">在代码库上工作时创建描述性分支名称（例如</font></font><code>feature/cool_feature_x</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><code>hotfix/flux_capacitor</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><code>issue/123</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等）。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更改完成后，创建拉取请求，确保您的分支与源分支保持同步，并且测试涵盖了代码更改，并且完整的测试套件通过了。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">讨论 OpenRemote</font></font></h2><a id="user-content-discuss-openremote" class="anchor-element" aria-label="永久链接：讨论 OpenRemote" href="#discuss-openremote"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加入我们的</font></font><a href="https://forum.openremote.io/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区论坛</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+</article></div>
